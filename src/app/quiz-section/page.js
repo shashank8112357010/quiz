@@ -46,7 +46,7 @@ const Homepage = () => {
     <>
       <div className='home-banner-santa p-5'>
         <div className='PlayButton-wrapper'>
-          <h2 className='text-white'>SANTA'S</h2>
+          <h2 className='text-white'>SANTAS</h2>
           <h1 className='text-white fs-70'>SCRABBLE WORDS</h1>
           <p className='text-white'>Even The Santa Needs A Good Policy!</p>
           <div style={{ position: 'relative' }} className='mt-5'>
@@ -71,7 +71,7 @@ const Homepage = () => {
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header justify-content-between">
-                <h5 className="modal-title santawcolor">Register yourself on Santa's List!</h5>
+                <h5 className="modal-title santawcolor">Register yourself on Santas List!</h5>
                 <button type="button" className="close" onClick={handleClose} style={{ border: 'none', backgroundColor: 'white' }}>
                   <span>&times;</span>
                 </button>
@@ -90,7 +90,7 @@ const Homepage = () => {
                       required
                     />
                     <small className="form-text text-muted">
-                      We'll never share your email with anyone else.
+                      Well never share your email with anyone else.
                     </small>
                   </div>
                   <button type="submit" className='btn btn-primary santacolor mt-2'>
